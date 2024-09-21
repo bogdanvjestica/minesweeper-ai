@@ -32,5 +32,5 @@ class Minesweeper:
             print('\t'.join(str(cell) for cell in row))
 
 
-field = Minesweeper(10, 10, 50)
+field = Minesweeper(10, 10, 10)
 field.display()
